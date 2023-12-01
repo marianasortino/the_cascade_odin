@@ -4,6 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>A Demo Font Family Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <style>
     body {
@@ -11,7 +14,7 @@
   background-color: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 10%);
   line-height: 1.5;
-  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+  font-family: Raleway, "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
 .content-width {
@@ -47,22 +50,40 @@ h2, h3 {
 
 h1 {
   font-size: 3rem;
-  font-weight: 100;
+  font-weight: 350;
 }
 
 h2 {
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 570;
 }
 
 h3 {
   font-size: 1.75rem;
   font-style: italic;
-  font-weight: 200;
+  font-weight: 450;
 }
 
 p {
   font-size: 1.125rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('fonts/raleway/Raleway.woff2') format('woff2');
+  font-weight: 300 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('fonts/raleway/Raleway-Italic.woff2') format('woff2');
+  font-weight: 300 800;
+  font-style: italic;
 }
   </style>
   <body>
